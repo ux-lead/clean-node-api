@@ -4,7 +4,7 @@
  */
 
 export default {
-  roots: [<rootDir>/src]
+  roots: ['C:/Users/renat/Desktop/clean-node-api/src'],
   // All imported modules in your tests should be mocked automatically
   // automock: false,
 
@@ -21,7 +21,7 @@ export default {
   collectCoverage: true,
 
   // An array of glob patterns indicating a set of files for which coverage information should be collected
-  collectCoverageFrom: ['<rootDir>/src/**?*.ts'],
+  collectCoverageFrom: ['C:/Users/renat/Desktop/clean-node-api/src/**/*.ts'],
 
   // The directory where Jest should output its coverage files
   coverageDirectory: "coverage",
